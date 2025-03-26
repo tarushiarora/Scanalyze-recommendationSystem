@@ -1,0 +1,203 @@
+product_id,product_name,category,skintype,concern,user_rating
+1,venusia max intensive moisturizing cream,moisturizer,dry,"acne ,  hydration",4
+2,saslic foaming face wash,facewash,"oily , combination","whitehead ,  blackhead",3
+3,the derma co 1% hyaluronic sunscreen aqua ultra light gel with spf 50 pa++++,sunscreen,dry,sunprotection,5
+4,hyalugel,moisturizer,dry,hydration,4
+5,himalaya neem face wash,facewash,normal,acne,3
+6,mamaearth ubtan face wash with turmeric & saffron for tan removal,facewash,normal,pigmentation,4
+7,kama ayurveda pure rosewater,toner,normal,"hydration ,  irritation",4
+8,simple kind to skin moisturizing facial wash,facewash,normal,"hydration ,  irritation",5
+9,emolene,moisturizer,dry,hydration,3
+10,requil ceramide and hyaluronic acid moisturizer,moisturizer,dry,hydration,5
+11,simple replenishing rich moisturiser,moisturizer,dry,hydration,4
+12,foxtale one zit wonder acne spot corrector gel,cream,"dry , oily , normal , combination , sensitive",acne,4
+13,"re' equil oxybenzone and omc free sunscreen for oily, sensitive & acne prone skin, spf 50 ",sunscreen,"sensitive , oily",sunprotection,5
+14,dr. sheth's haldi & hyaluronic acid sunscreen,sunscreen,oily,sunprotection,5
+15,"minimalist 2% salicylic acid serum for acne, blackheads & open pores",serum,"dry , oily , normal , combination , sensitive","acne ,  whitehead ,  blackhead",5
+16,2% niacinamide & rice water spf 50 pa+++ hybrid sunscreen,sunscreen,dry,sunprotection,5
+17,dot & key watermelon cooling spf 50 sunscreen,sunscreen,"combination , oily",sunprotection,5
+18,klm klin face wash,facewash,oily,acne,3
+19,evion cream with aloe vera & vitamin e (1%),moisturizer,dry,darkspots,3
+20,moduseb moist moisturiser,moisturizer,"oily , combination",hydration,4
+21,rivela tint sunscreen lotion spf 50,sunscreen,dry,sunprotection,5
+22,aziclear anti acne facial cleanser,cleanser,oily,acne,3
+23,juniper berry oil free moisturiser,moisturizer,sensitive,acne,4
+24,kama aryuveda nimrah anti acne face pack,facemask,sensitive,acne,4
+25,forest essentials delicate facial cleanser kashmiri saffron & neem,cleanser,"sensitive , oily",acne,4
+26,blynds spf 40 sunscreen,sunscreen,oily,sunprotection,5
+27,dr.sheth's haldi & hyaluronic acid sleeping mask,facemask,normal,hydration,5
+28,dr.sheth's liquorice & lactic acid peel,facemask,combination,pigmentation,3
+29,"tamanu, kakadu plum and frankincense face wash",facewash,"normal , combination",pigmentation,4
+30,acnedew anti acne & anti pimple cream,cream,"normal , combination , oily , dry , sensitive",acne,5
+31,deriva cms gel,gel,dry,acne,3
+32,kojivit ultra gel,gel,"dry , sensitive , combination","darkspots ,  pigmentation",4
+33,sbl silk n stay aloe vera cream,moisturizer,"normal , oily",hydration,5
+34,ultra-light liquid moisturiser,moisturizer,oily,hydration,4
+35,cerene illuminating water cream,moisturizer,"oily , combination","hydration ,  brokenbarrier",4
+36,cerene hydrating cloud cream,moisturizer,"normal , dry , sensitive","hydration ,  brokenbarrier",5
+37,barrier relief lightweight ceramide moisturizer,moisturizer,"oily , combination","hydration ,  brokenbarrier",5
+38,air brush facial all in one lactic acid exfoliator,scrub,dry,"hydration ,  exfoliation",5
+39,"2% bha exfoliator salicylic acid 2% + niacinamide
+",serum,"oily , combination","whitehead ,  blackhead ,  exfoliation",5
+40,amrit – face serum mist- hyaluronic & probiotics,serum,combination,"acne ,  darkspots",5
+41,soultree nourishing cream - saffron & almond oil with natural vitamin e,gel,"dry , normal",hydration,3
+42,"ilana clarifying & calming night gel with niacinamide, green tea and cica",gel,oily,"hydration ,  brokenbarrier",4
+43,kaya purifying cleanser - acne prone skin - salicylic acid,cleanser,"oily , combination",acne,4
+44,protego 46 mineral sunscreen,sunscreen,"oily , dry",sunprotection,5
+45,dr.sheth's shea butter & amino acid multitasking cream,moisturizer,dry,brokenbarrier,4
+46,dr.sheth's centella & niacinamide serum,serum,dry,brokenbarrier,3
+47,vitamin c brightening serum vitamin c 10% + arbutin 2% + nag 2%,serum,sensitive,pigmentation,5
+48,malazia hydra veil gel moisturizer,gel,dry,acne,5
+49,barrier plus peptide ceramide moisturizer,moisturizer,"dry , sensitive","hydration ,  brokenbarrier ,  irritation",4
+50,6% aha bha exfoliator 5% glycolic acid + 1% salicylic acid,scrub,"dry , normal , oily , combination","whitehead ,  blackhead ,  exfoliation",4
+51,dr.sheth's neem & salicylic acid face wash,facewash,"oily , dry","whitehead ,  blackhead ,  acne",3
+52,douse barrier repair face cream,cream,"dry , normal",hydration,5
+53,invisible sunscreen spf 40 pa +++ sunscreen for oily skin,sunscreen,oily,sunprotection,4
+54,nourrir cleanseme gentle skin cleanser face wash,facewash,"dry , sensitive","brokenbarrier ,  hydration",3
+55,forest essentials aloevera juice,toner,dry,hydration,4
+56,earth rhythm vitamin e intense nourish day cream,cream,dry,brokenbarrier,5
+57,phyto ceramide deep moisturizer,moisturizer,normal,hydration,3
+58,the derma co pore minimizing priming sunscreen with spf 50 & pa+++,sunscreen,normal,pores,4
+59,the derma co 2% salicylic acid serum,serum,"normal , dry , combination","whitehead ,  blackhead ,  acne",5
+60,"the derma co pore minimizing face serum with 4% niacinamide, 5% pha and p-refinyl ",serum,"normal , dry , combination , oily , sensitive",pores,4
+61,the derma co pore minimizing daily face moisturizer with 3% niacinamide 3% pha and p-refinyl,moisturizer,dry,pores,4
+62,dot & key watermelon cooling sunscreen spf 50 pa+++,sunscreen,"oily , combination",sunprotection,5
+63,the derma co 2% niacinamide oily skin cleanser,cleanser,"oily , sensitive , combination","pigmentation , darkspots",3
+64,the derma co pore minimizing clay daily face wash with 1% niacinamide & 2% pha,facewash,"sensitive , combination",pores,4
+65,the derma co 2% kojic acid cream,cream,"normal , sensitive",pigmentation,5
+66,mamaearth beetroot hydraful moisturizer with beetroot & hyaluronic acid,moisturizer,normal,hydration,3
+67,the derma co 2% hyalacalamine hydrating sunscreen for uva/uvb protection with spf 50 & pa+++,sunscreen,"normal , dry , combination , oily , sensitive",sunprotection,5
+68,kama aryuveda rose jasmine face cleanser,cleanser,"normal , dry , combination , oily , sensitive",hydration,5
+69,sun’nil jojoba-grapeseed moisturising sun protection lotion,moisturizer,"normal , dry","sunprotection , brokenbarrier",4
+70,ethiglo face wash,facewash,"sensitive , combination","pigmentation , darkspots",5
+71,melaglow rich cream,cream,"normal , dry , combination , oily , sensitive",darkspots,5
+72,zitmoist gel for acne prone skin,gel,oily,acne,5
+73,dot & key barrier repair gentle hydrating face wash,facewash,"normal , dry , sensitive",brokenbarrier,5
+74,ipca acne-oc sebum regulating moisturizer,moisturizer,oily,"acne , hydration",4
+75,glambak skin glowing & rejuvenating face wash,facewash,"normal , dry , combination , oily , sensitive",exfoliation,5
+76,airgel nmf-15% moisturiser,moisturizer,"normal , dry",hydration,5
+77,foxtale essentials multivitamin rose mist & toner,toner,"normal , dry , combination , oily","hydration , brokenbarrier",3
+78,foxtale hydrating face wash,facewash,sensitive,hydration,4
+79,foxtale acne control cleanser with salicylic acid,cleanser,sensitive,acne,3
+80,dr.sheth's cica & ceramide overnight repair serum,serum,sensitive,brokenbarrier,4
+81,elovera cream,moisturizer,dry,"hydration , brokenbarrier",4
+82,rejuglow face wash,facewash,"normal , dry , combination , oily , sensitive","acne , acne",5
+83,lotus herbals alphamoist skin renewal oil free moisturiser,moisturizer,"normal , dry , combination , oily , sensitive",brokenbarrier,5
+84,dot & key vitamin c + e spf 50 sunscreen,sunscreen,combination,sunprotection,3
+85,bello new photostable sunscreen emulgel spf 55+/pa++++,sunscreen,combination,sunprotection,3
+86,svashudhi charcoal face pack,facemask,"normal , dry , combination , oily , sensitive","whitehead , blackhead , pores",4
+87,zscreen zinc oxide sunscreen gel,sunscreen,"oily , combination",sunprotection,4
+88,elements wellness 3 in 1 face wash  with tea tree oil & vitamin e,facewash,"normal , dry , combination , oily , sensitive","acne , acne",3
+89,pure elements neem clove anti acne face wash neemwash neem & clove ultra purifying face wash,facewash,"normal , dry , combination , oily , sensitive",acne,4
+90,indus valley ultra rich replenishing face scrub,scrub,dry,darkspots,5
+91,kama aryuveda anti acne spot corrector,scrub,"normal ,  oily ,  sensitive ,  dry ,  combination",acne,3
+92,kama aryuveda sensitive skin cleansing foam,cleanser,sensitive,"irritation , skinsoothing",3
+93,mamaearth anti-pollution daily face cream,cream,sensitive,acne,5
+94,la pink white haldi ubtan face mask,facemask,combination,"pigmentation , acne",4
+95,mcaffeine hydra repair kombucha tea sunscreen spf 50 pa++++ with ceramides,sunscreen,"normal ,  oily ,  sensitive ,  dry ,  combination","sunprotection , hydration",3
+96,aquasoft fc advanced facial cream,cream,"dry , combination",irritation,4
+97,excela moisturiser for oily & acne prone skin,moisturizer,"oily , combination",acne,3
+98,acnemoist cream,cream,"sensitive , oily",acne,5
+99,plum grape seed & sea buckthorn renaissance face mask,facemask,dry,"irritation , skinsoothing",4
+100,plum chamomile & white tea plush night souffle,cream,"normal , combination",hydration,3
+101,plum phy green tea face mask,facemask,oily,acne,3
+102,"plum grape seed & sea buckthorn mild foam scrub
+",scrub,"normal , dry , combination",exfoliation,4
+103,plum green tea gentle revival face scrub,scrub,"oily , combination",exfoliation,4
+104,plum bulgarian valley rose water toner,toner,"normal , dry , combination , oily , sensitive","skinsoothing , pores",5
+105,plum 3% pha toner with blueberry,toner,"normal , dry , combination , oily , sensitive",pores,4
+106,plum 1% oat & allantoin deep nourish face wash,facewash,"normal , dry , combination , oily , sensitive",brokenbarrier,4
+107,plum hello aloe caring day moisturizer,moisturizer,"dry , normal , sensitive",skinsoothing,3
+108,pratha beige multani clay,facemask,combination,"whitehead , blackhead",4
+109,tattvalogy saraswati river basin dead sea mud clay face mask,facemask,oily,acne,4
+110,la pink white haldi face toner with kakadu plum,toner,dry,acne,4
+111,ponds super light gel oil free moisturiser with hyaluronic acid + vitamin e,moisturizer,dry,hydration,4
+112,velomosk deep moisturiser with grapeseed oil & honey,moisturizer,dry,hydration,5
+113,fixderma cleovera paraben free skin moisturizer cream with aloe vera,moisturizer,sensitive,skinsoothing,4
+114,"luxura sciences salicylic acid 2% face serum, niacinamide serum",serum,"normal , dry , combination , oily , sensitive","whitehead , blackhead",5
+115,deconstruct breakout control d.s. serum,serum,"oily , combination","whitehead , blackhead",3
+116,lacto calamine face toner with cucumber,toner,"normal , dry , combination , oily , sensitive",irritation,5
+117,re' equil oil control face wash,facewash,oily,"brokenbarrier , hydration",4
+118,bebodywise 1% peptide & ceramide moisturizer,moisturizer,combination,brokenbarrier,5
+119,bebodywise broad spectrum spf 30 sunscreen,sunscreen,"normal , dry , combination , oily , sensitive",sunprotection,4
+120,pure bubbles niacinamide & zinc pca facewash,facewash,sensitive,acne,3
+121,pure bubbles bamboo charcoal face wash,facewash,"normal , dry , combination , oily , sensitive",acne,4
+122,pure bubbles 5% vitamin c brightening skin serum,serum,"normal , dry , combination , oily",pigmentation,5
+123,fixderma shadow  spf 50 + cream,sunscreen,"dry , sensitive",sunprotection,4
+124,fixderma shadow sunscreen a-gel spf 30,sunscreen,oily,sunprotection,3
+125,fixderma 10% tranexamic acid pigment correcting face serum,serum,"normal , dry , combination , oily , sensitive","pigmentation , darkspots",3
+126,suganda squalane cleansing oil,cleanser,"dry , combination , oily , sensitive","pores , skinsoothing",5
+127,suganda hydrating oat pha cleanser,cleanser,"dry ,  sensitive ,  combination","hydration , irritation",3
+128,suganda total defence sunscreen spf 50 pa++++ with antioxidants,sunscreen,"normal , dry , combination , oily , sensitive","sunprotection , irritation",5
+129,the papaya project hydrating face serum,serum,"normal , dry , combination , oily , sensitive",hydration,3
+130,be minimalist spf 50 sunscreen stick,sunscreen,dry,sunprotection,3
+131,happier sunscreen stick spf 50 pa+++,sunscreen,dry,sunprotection,5
+132,dot & key strawberry dew sunscreen stick spf 50,sunscreen,"normal , dry , combination , oily , sensitive",sunprotection,4
+133,aqua surge® clear sunstick spf 60 sunscreen,sunscreen,"normal , dry",sunprotection,5
+134,la shield intense hydrating cream probiotic moisturizer,moisturizer,"normal , dry , combination , oily , sensitive",hydration,3
+135,acnestar clindamycin & nicotinamide gel,cream,"oily , dry , sensitive","acne , whitehead , blackhead , acne",5
+136,angelskin cream with 15% glycerin,moisturizer,dry,brokenbarrier,3
+137,kozicare skin lightening cream,cream,"normal , dry , combination , oily , sensitive","pigmentation , darkspots",4
+138,sorilast cream,cream,dry,"exfoliation , hydration",3
+139,bio:cule oil clear purifying cleanser,cleanser,"normal , oily , dry","pores , hydration",5
+140,mul secrets wellness hydrate skin hydration mask,facemask,"normal , oily , dry","exfoliation , hydration",5
+141,evermore natural cactus gel,gel,"normal , dry , combination , oily , sensitive",skinsoothing,4
+142,plum squalane & vitamin e dewy-bright sunscreen spf 50 pa+++,sunscreen,"dry , normal",sunprotection,3
+143,pure bubbles skincare barrier reset face-gel moisturiser,moisturizer,oily,brokenbarrier,3
+144,the beauty sailor coffee face wash,facewash,"oily , dry","acne , hydration",4
+145,the beauty sailor chocolate face mask for glowing skin,facemask,normal,"pores , skinsoothing",5
+146,the beauty sailor 2% alpha-arbutin face serum with licorice,serum,oily,pigmentation,5
+147,pureearth wild rose himalayan mist,toner,normal,skinsoothing,4
+148,"juicy chemistry saffron, rose and australian sandalwood face scrub",scrub,normal,exfoliation,4
+149,juicy chemistry australian sandalwood and myrrh night cream,cream,dry,skinsoothing,4
+150,juicy chemistry cold pressed rosehip seed carrier oil,moisturizer,oily,darkspots,3
+151,simple active skin barrier care smoothing gel face cleanser,cleanser,"normal , dry , combination , oily , sensitive","brokenbarrier , whitehead , blackhead",5
+152,the derma co 4% ceramide barrier repair moisturizer,moisturizer,"normal , dry , combination , oily , sensitive",brokenbarrier,5
+153,the true therapy retexturize 10% glycolic acid toner,toner,"normal , dry , combination , oily , sensitive",pores,3
+154,aqualogica glow+ jello moisturiser with vitamin c & papaya for illuminating moisturization,moisturizer,"normal , dry , combination",hydration,4
+155,conscious chemist berry bright pore refining & brightening face mask,facemask,"normal , dry , combination , oily , sensitive",skinsoothing,5
+156,pilgrim red vine face mask with mulberry & rosehip oil,facemask,"normal , dry , combination , oily , sensitive","pores , skinsoothing",3
+157,pilgrim volcanic lava ash face scrub with yugdugu & white lotus,scrub,"normal , dry , combination , oily , sensitive","whitehead , blackhead , pores",4
+158,bangalore bio-plasgens soundarya complexion cream,cream,"normal , dry , combination , oily , sensitive","exfoliation , pigmentation",3
+159,sbl neem face wash,facewash,normal,acne,4
+160,"sunny herbals face wash with aloe vera, calendula, neem, and tulsi",facewash,"normal , dry",skinsoothing,3
+161,melawash face wash,facewash,"normal , oily",pigmentation,5
+162,tvaksh face guard silicone sunscreen gel spf 30 pa+++,sunscreen,"normal , dry , combination , oily , sensitive",sunprotection,3
+163,"mxofere neem, tulsi & tea tree face wash",facewash,"normal , dry","hydration , skinsoothing",5
+164,medfoam foaming face wash,facewash,"oily , combination","acne , pores",5
+165,depiclear face wash,facewash,"normal , dry , combination , oily , sensitive","skinsoothing , pores",5
+166,aziderm azelaic acid gel 10%,gel,"normal , dry , combination , oily , sensitive","pigmentation , acne",3
+167,sensisoothe sunscreen spf 50 pa++++ mineral with ceramides & rice,sunscreen,sensitive,sunprotection,5
+168,acnexpert mattifying spf 50 pa+++ niacinamide for oil & acne control,sunscreen,oily,sunprotection,5
+169,moody vitamin c brightening face moisturizer,moisturizer,oily,pigmentation,3
+170,moody hydro burst water gel moisturizer,moisturizer,oily,"hydration , skinsoothing",5
+171,acnexpert foaming face wash salicylic acid & green tea,facewash,oily,pores,3
+172,moody vitamin c brightening face wash,facewash,"normal , combination","hydration , darkspots",3
+173,regaliz truderma moisturizing lotion,moisturizer,"normal , combination",irritation,4
+174,papulex oil-free cream,cream,oily,acne,5
+175,hydew moisturiser,moisturizer,oily,acne,5
+176,ceratop cream,cream,"dry , normal","hydration , skinsoothing",4
+177,conscious chemist pigmentation & dark spot corrector gel cream,cream,"dry , normal , combination","pigmentation , darkspots",4
+178,plum chamomile and white tea sheer matte day cream spf 50 pa+++,moisturizer,"normal , dry , combination , oily , sensitive",sunprotection,4
+179,rivona 2% hyaluronic acid and 3% niacinamide serum,serum,"normal , dry , combination , oily , sensitive","darkspots , hydration",4
+180,rivona charcoal exfoliating face wash with rice granules and tea tree,facewash,"normal , dry , combination","pores , exfoliation",5
+181,rivona ha aqua moisturizing cream with 2% hyaluronic acid and cucumber extracts,moisturizer,dry,hydration,3
+182,rivona pink brightening cream with alpha arbutin,cream,"normal , dry , combination , oily , sensitive",pores,5
+183,rivona mineral sunscreen with spf 50+ uva uvb pa+++,sunscreen,sensitive,sunprotection,4
+184,wishcare 100% pure & natural kannauj rose water,toner,"normal , dry , combination , oily , sensitive",skinsoothing,4
+185,cos-iq fc 2 face cleanser,cleanser,"dry , normal",hydration,5
+186,vilvah store face wash cream,facewash,sensitive,skinsoothing,5
+187,vaunt calendula + vitamin b5 cloud cleanser,cleanser,"normal , dry , combination , oily , sensitive",brokenbarrier,5
+188,glownise face wash,facewash,"normal , dry , combination","pigmentation , exfoliation",3
+189,aquaoat emcure aqua oat moisturizing cream,moisturizer,dry,"hydration , skinsoothing , irritation",5
+190,episoft cleansing lotion for sensitive skin,cleanser,sensitive,irritation,4
+191,nioglow foaming face wash,facewash,"normal , dry , combination , oily , sensitive","acne , darkspots",3
+192,sebonac face wash,facewash,oily,exfoliation,5
+193,clensta red aloe vera oil control face wash,facewash,"oily , combination","acne , pores",4
+194,"clensta red aloe vera exfoliating face scrub with 3% walnut shell, lactic acid & vitamin e",scrub,"normal , dry , combination , oily , sensitive","exfoliation , whitehead , blackhead",4
+195,clensta red aloe vera moisturizing face wash,facewash,"dry , normal","brokenbarrier , hydration",4
+196,skinq hydrate & nourish mask,facemask,"sensitive , dry","brokenbarrier , hydration",3
+197,skinq acne & oil control serum,serum,"oily , combination","acne , whitehead , blackhead",3
+198,dermoys 365 lotion,moisturizer,"combination , oily , sensitive",irritation,5
+199,mfine 3% tranexamic acid serum,serum,"normal , dry , combination , oily , sensitive",pigmentation,5
+200,mfine 1% salicylic acid foaming cleanser,cleanser,"oily , combination","acne ,  whitehead ,  blackhead",3
