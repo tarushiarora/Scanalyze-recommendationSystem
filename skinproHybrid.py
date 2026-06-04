@@ -62,14 +62,16 @@ def collaborative_filtering(data, category, skin_concerns):
 
 # Fallback: Top-Rated Products
 def top_rated_products(data, category, skin_concerns):
-    filtered_data = data[data['category'].str.lower() == category.lower()]
-    # Filter out products with lower ratings (e.g., 5 or 4 star ratings only)
-    filtered_data = filtered_data[filtered_data['user_rating'].isin([4, 5])]
-    
-    # Filter products by skin concerns
-    relevant_products = filtered_data[filtered_data['concern'].str.contains(skin_concerns, case=False)]
-    
-    return relevant_products[['product_name', 'category', 'skintype', 'concern', 'user_rating']]
+    # Filter by category first
+    filtered_data = data[data['category'].str.lower() == category.lower()].copy()
+    # Grab only 4 and 5 star products
+    high_rated = filtered_data[filtered_data['user_rating'].isin([4, 5])]
+    # Try to filter by the user's specific concern text
+    matched_products = high_rated[high_rated['concern'].str.contains(skin_concerns, case=False)]
+    if matched_products.empty:
+        return high_rated[['product_name', 'category', 'skintype', 'concern', 'user_rating']].head(5)
+        
+    return matched_products[['product_name', 'category', 'skintype', 'concern', 'user_rating']].head(5)
 
 # Content-Based Filtering
 def content_based_filtering(data, category, skin_type, skin_concerns):
