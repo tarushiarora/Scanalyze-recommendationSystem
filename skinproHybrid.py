@@ -67,8 +67,9 @@ def top_rated_products(data, category, db_concerns_list):
     filtered_data = data[data['category'].str.lower() == category.lower()].copy()
     # Grab only 4 and 5 star products
     high_rated = filtered_data[filtered_data['user_rating'].isin([4, 5])]
-    # Try to filter by the user's specific concern text
-    matched_products = high_rated[high_rated['concern'].str.contains(skin_concerns, case=False)]
+
+    concern_regex = "|".join(db_concerns_list) if db_concerns_list else ".*"
+    matched_products = high_rated[high_rated['concern'].str.contains(concern_regex, case=False)]
     if matched_products.empty:
         return high_rated[['product_name', 'category', 'skintype', 'concern', 'user_rating']].head(5)
         
