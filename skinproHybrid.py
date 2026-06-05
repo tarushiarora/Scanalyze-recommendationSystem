@@ -69,6 +69,8 @@ def top_rated_products(data, category, db_concerns_list):
     high_rated = filtered_data[filtered_data['user_rating'].isin([4, 5])]
 
     concern_regex = "|".join(db_concerns_list) if db_concerns_list else ".*"
+    
+    high_rated = high_rated.sort_values(by='user_rating', ascending=False)
     matched_products = high_rated[high_rated['concern'].str.contains(concern_regex, case=False)]
     if matched_products.empty:
         return high_rated[['product_name', 'category', 'skintype', 'concern', 'user_rating']].head(5)
