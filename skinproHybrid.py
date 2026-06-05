@@ -12,7 +12,7 @@ def load_data(file_path):
     return pd.read_csv(file_path)
 
 # Latent Feature Filtering (NMF-based Item-to-Item Similarity)
-def collaborative_filtering(data, category, skin_concerns):
+def collaborative_filtering(data, category, db_concerns_list):
     
     # Filter data for the selected category and highly rated products
     filtered_data = data[
@@ -44,7 +44,8 @@ def collaborative_filtering(data, category, skin_concerns):
         # Calculate latent product similarity matrix
         item_similarity = cosine_similarity(item_profiles)
         
-        concern_mask = filtered_data['concern'].str.contains(skin_concerns, case=False).values
+        concern_regex = "|".join(db_concerns_list) if db_concerns_list else ".*"
+        concern_mask = filtered_data['concern'].str.contains(concern_regex, case=False).values
         matched_indices = [i for i, matched in enumerate(concern_mask) if matched]
         
         if not matched_indices:
@@ -61,7 +62,7 @@ def collaborative_filtering(data, category, skin_concerns):
         return pd.DataFrame(columns=['product_name', 'category', 'skintype', 'concern', 'user_rating'])
 
 # Fallback: Top-Rated Products
-def top_rated_products(data, category, skin_concerns):
+def top_rated_products(data, category, db_concerns_list):
     # Filter by category first
     filtered_data = data[data['category'].str.lower() == category.lower()].copy()
     # Grab only 4 and 5 star products
@@ -74,22 +75,26 @@ def top_rated_products(data, category, skin_concerns):
     return matched_products[['product_name', 'category', 'skintype', 'concern', 'user_rating']].head(5)
 
 # Content-Based Filtering
-def content_based_filtering(data, category, skin_type, skin_concerns):
+def content_based_filtering(data, category, skin_type, db_concerns_list):
     vectorizer = TfidfVectorizer(stop_words="english")
     filtered_data = data[data['category'].str.lower() == category.lower()].copy()
 
+    # Generate combined text for TF-IDF matrix
     data_text = filtered_data[['product_name', 'category', 'skintype', 'concern']].apply(
         lambda x: ' '.join(x.map(str)), axis=1
     )
     tfidf_matrix = vectorizer.fit_transform(data_text)
-    
-    user_features = f"{skin_concerns} {skin_type.lower()} {category.lower()}"
+
+    concerns_str = " ".join(db_concerns_list) if db_concerns_list else ""
+    user_features = f"{concerns_str} {skin_type.lower()} {category.lower()}"
     user_vector = vectorizer.transform([user_features])
     
     similarity_scores = cosine_similarity(user_vector, tfidf_matrix).flatten()
     filtered_data['SimilarityScore'] = similarity_scores
   
-    relevant_products = filtered_data[filtered_data['concern'].str.contains(skin_concerns, case=False)]
+    concern_regex = "|".join(db_concerns_list) if db_concerns_list else ".*"
+    relevant_products = filtered_data[filtered_data['concern'].str.contains(concern_regex, case=False)]
+    
     relevant_products = relevant_products[relevant_products['skintype'].str.contains(skin_type, case=False)]
     
     return relevant_products.sort_values(by='SimilarityScore', ascending=False)[
@@ -104,21 +109,41 @@ def main():
     category = st.sidebar.selectbox("Select Product Category", data["category"].unique())
     skin_type_options = ["Oily", "Dry", "Combination", "Sensitive", "Normal"]
     skin_type = st.sidebar.selectbox("Select Skin Type", skin_type_options)
-    skin_concerns = st.sidebar.text_input("Enter Skin Concerns (comma-separated)", "Acne, Pigmentation")
+    # skin_concerns = st.sidebar.text_input("Enter Skin Concerns (comma-separated)", "Acne, Pigmentation")
+    concern_options = {
+    "Acne": "acne",
+    "Blackheads": "blackhead",
+    "Whiteheads": "whitehead",
+    "Broken Barrier": "brokenbarrier",
+    "Dark Spots": "darkspots",
+    "Exfoliation": "exfoliation",
+    "Hydration": "hydration",
+    "Irritation": "irritation",
+    "Pigmentation": "pigmentation",
+    "Pores": "pores",
+    "Skin Soothing": "skinsoothing",
+    "Sun Protection": "sunprotection"
+}
+    selected_concerns = st.sidebar.multiselect(
+    "Select Skin Concerns (Choose multiple)", 
+    options=list(concern_options.keys()),
+    default=["Acne", "Pigmentation"]
+)
+    db_concerns_list = [concern_options[c] for c in selected_concerns]
     
     if st.button("Get Recommendations"):
         # Content-based recommendations
         st.subheader("Direct Match Content-Based Recommendations")
-        content_recs = content_based_filtering(data, category, skin_type, skin_concerns)
+        content_recs = content_based_filtering(data, category, skin_type, db_concerns_list)
         st.table(content_recs)
         
         # Latent Feature NMF recommendations (with fallback to top-rated)
         st.subheader("Latent Feature Recommendations (NMF Matrix Filter)")
-        collab_recs = collaborative_filtering(data, category, skin_concerns)
+        collab_recs = collaborative_filtering(data, category, db_concerns_list)
         
         if collab_recs.empty or len(collab_recs) < 1:
             st.write("Latent semantic data is insufficient; showing top-rated products instead.")
-            collab_recs = top_rated_products(data, category, skin_concerns)
+            collab_recs = top_rated_products(data, category, db_concerns_list)
         
         st.table(collab_recs)
 
